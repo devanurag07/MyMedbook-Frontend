@@ -1,0 +1,173 @@
+:root {
+  --primaryColor: #1dbfc1;
+  --secondaryColor: #5C607B;
+}
+
+
+@font-face {
+  font-family: 'iconmoon';
+  src: local("iconmoon") url(../public/fonts/icomoon.ttf) format(ttf);
+}
+
+
+
+
+#root{
+  background-color: #f1f5f8;
+}
+
+*{
+  font-family: Poppins;
+  
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+/* Basic CSS CLASSES  */
+.flex{
+  display: flex;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.all-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold{
+  font-weight: 606;
+}
+
+/* Sidebar Sublink Icon */
+.icon-Commit .path1:before {
+  content: "\ed9b";
+  
+  opacity: 0.3;
+}
+.icon-Commit .path2:before {
+  content: "\ed9c";
+  margin-left: -1em;
+  
+}
+
+.icon-Commit{
+  font-family: 'iconmoon';
+}
+
+
+
+/* Text UTILS */
+
+.text-center{
+  text-align: center;
+}
+
+.text-600{
+  font-weight: 600;
+}
+
+
+.text-500{
+  font-weight: 500;
+}
+
+.text-400{
+  font-weight: 400;
+}
+
+.text-300{
+  font-weight: 300;
+}
+
+.text-200{
+  font-weight: 200;
+}
+
+.text-100{
+  font-weight: 100;
+}
+
+
+/* Text Color */
+
+.text-color-primary{
+  color:var(--primaryColor);
+}
+
+
+.text-color-secondary{
+  color:var(--secondaryColor);
+}
+
+
+/* Margin Padding
+ */
+
+ .mt-1{
+  margin-top:1em;
+ }
+
+
+ 
+ .mt-2{
+  margin-top:2em;
+ }
+
+
+
+ .mt-3{
+  margin-top:3em;
+ }
+
+
+ .mt-4{
+  margin-top:4em;
+ }
+
+
+ 
+ .mb-1{
+  margin-bottom:1em;
+ }
+
+
+ 
+ .mb-2{
+  margin-bottom:2em;
+ }
+
+
+
+ .mb-3{
+  margin-bottom:3em;
+ }
+
+
+ .mb-4{
+  margin-bottom:4em;
+ }
+
+
+ 
